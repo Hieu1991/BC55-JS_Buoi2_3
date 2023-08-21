@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- CSS     -->
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+    <div>
+        <!-- bài 1 -->
+        <div class="">
+            <div class="container py-3 bai">
+                <div>
+                    <h1>Bài tập 1</h1>
+                    <div class="col-6 bakhoi">
+                        <p>- Đầu vào:</p>
+                        <p>+ Tạo biến "luong" và gán để nhập giá tiền 1 ngày làm</p>
+                        <p>+ Tạo biến "ngay" và gán để nhập số ngày làm</p>
+                        <p>- Xử lý:</p>
+                        <p>+ Lấy total = ngay * luong</p>
+                        <p>- Kết quả:</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="card">
+                            <div class="card-header">Tính tiền Lương Nhân Viên</div>
+                            <div class="card-body">
+                                <div class="form-group">
+                                    <label>Số ngày làm việc</label>
+                                    <input type="number" id="ngay" class="form-control" />
+                                </div>
+                                <div class="form-group">
+                                    <label>Lương của 1 ngày</label>
+                                    <input type="number" id="luong" class="form-control" />
+                                </div>
+                                <button id="btnTinh" class="btn btn-danger">Tính</button>
+                            </div>
+                            <div id="tienluong" class="card-footer text-muted">👉</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- bài 2 -->
+        <div class="">
+            <div class="container py-3 bai">
+                <div>
+                    <h1>Bài tập 2</h1>
+                    <div class="col-6 bakhoi">
+                        <p>- Đầu vào:</p>
+                        <p>+ Tạo biến gán "number" tương ứng với 5 số</p>
+                        <p>- Xử lý:</p>
+                        <p>+ Covert "number" từ string qua number</p>
+                        <p>+ Lấy total = (number1 + number2 + number3 + number4 + number5) / 5</p>
+                        <p>- Kết quả:</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="card">
+                            <div class="card-header">Tính giá trị trung bình của 5 số</div>
+                            <div class="card-body">
+                                <div class="form-group">
+                                    <label>Nhập số thứ 1</label>
+                                    <input type="number" id="number1" class="form-control" placeholder="Số 1" />
+                                </div>
+                                <div class="form-group">
+                                    <label>Nhập số thứ 2</label>
+                                    <input type="number" id="number2" class="form-control" placeholder="Số 2" />
+                                </div>
+                                <div class="form-group">
+                                    <label>Nhập số thứ 3</label>
+                                    <input type="number" id="number3" class="form-control" placeholder="Số 3" />
+                                </div>
+                                <div class="form-group">
+                                    <label>Nhập số thứ 4</label>
+                                    <input type="number" id="number4" class="form-control" placeholder="Số 4" />
+                                </div>
+                                <div class="form-group">
+                                    <label>Nhập số thứ 5</label>
+                                    <input type="number" id="number5" class="form-control" placeholder="Số 5" />
+                                </div>
+                                <button id="numberTong" class="btn btn-danger">Tính</button>
+                            </div>
+                            <div id="trungBinh" class="card-footer text-muted">👉</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- bài 3 -->
+        <div class="">
+            <div class="container py-3 bai">
+                <div>
+                    <h1>Bài tập 3</h1>
+                    <div class="col-6 bakhoi">
+                        <p>- Đầu vào:</p>
+                        <p>+ Tạo biến "giaDo" gán giá trị là 23500</p>
+                        <p>+ Tạo biến "tien" và gán để nhập số tiền đô</p>
+                        <p>- Xử lý:</p>
+                        <p>+ Lấy total = tien * giaDo</p>
+                        <p>- Kết quả:</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="card">
+                            <div class="card-header">Quy đổi tiền Đô</div>
+                            <div class="card-body">
+                                <div class="form-group">
+                                    <label>Nhập số tiền USD</label>
+                                    <input type="number" id="tien" class="form-control"
+                                        placeholder="Nhập số tiền USD" />
+                                </div>
+                                <button id="btnTien" class="btn btn-danger">Quy đổi tiền</button>
+                            </div>
+                            <div id="tongTien" class="card-footer text-muted">👉</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- bài 4 -->
+
+        <div class="">
+            <div class="container py-3 bai">
+                <div>
+                    <h1>Bài tập 4</h1>
+                    <div class="col-6 bakhoi">
+                        <p>- Đầu vào:</p>
+                        <p>+ Tạo biến "dai" và gán để nhập số chiều dài</p>
+                        <p>+ Tạo biến "rong" và gán để nhập số chiều rộng</p>
+                        <p>+ Convert number cho biến "dai" và "rong"</p>
+                        <p>- Xử lý:</p>
+                        <p>+ Lấy dienTich = dai * rong</p>
+                        <p>+ lấy chuVi = (dai + rong) * 2</p>
+                        <p>- Kết quả:</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="card">
+                            <div class="card-header">Tính diện tích, chu vi hình chữ nhật</div>
+                            <div class="card-body">
+                                <div class="form-group">
+                                    <label></label>
+                                    <input type="number" id="dai" class="form-control" placeholder="Nhập chiều dài" />
+                                </div>
+                                <div class="form-group">
+                                    <label></label>
+                                    <input type="number" id="rong" class="form-control" placeholder="Nhập chiều rộng" />
+                                </div>
+                                <button id="btnKetQua" class="btn btn-danger">Kết quả</button>
+                            </div>
+                            <div id="ketQua" class="card-footer text-muted">👉</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bài 5 -->
+        <div class="">
+            <div class="container py-3 bai">
+                <div>
+                    <h1>Bài tập 5</h1>
+                    <div class="col-6 bakhoi">
+                        <p>- Đầu vào:</p>
+                        <p>+ Tạo biến "hangChuc" gán giá trị để nhập hai số</p>
+                        <p>- Xử lý:</p>
+                        <p>+ Lấy hangChuc1 = Math.floor(hangChuc / 10) để lấy số đầu</p>
+                        <p>+ Lấy hangDonVi = hangChuc % 10 để lấy số thứ hai</p>
+                        <p>+ tong = hangChuc1 + hangDonVi</p>
+                        <p>- Kết quả:</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="card">
+                            <div class="card-header">Tính tổng 2 chữ số</div>
+                            <div class="card-body">
+                                <div class="form-group">
+                                    <label>Nhập hai số</label>
+                                    <input type="number" id="hangChuc" class="form-control" placeholder="" />
+                                </div>
+                                <button id="tong" class="btn btn-danger">Tổng 2 số</button>
+                            </div>
+                            <div id="tongHaiSo" class="card-footer text-muted">👉</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+
+    <!-- JS -->
+    <script src="./index.js"></script>
+</body>
+
+</html>
